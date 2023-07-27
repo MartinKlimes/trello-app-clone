@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    @apply  py-1 text-sm px-2 rounded text-white font-bold border-b border-black
+}
+
+.btn-indigo {
+    @apply bg-indigo-500
+}
+
+.btn-indigo:hover,
+.btn-indigo:active {
+    @apply bg-indigo-400
+}
